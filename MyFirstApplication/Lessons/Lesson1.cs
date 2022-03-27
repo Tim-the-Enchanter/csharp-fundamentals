@@ -40,7 +40,7 @@ internal class Lesson1
 
     public void LongMinMax()
     {
-        Console.WriteLine(int64.MinValue);
+        Console.WriteLine(Int64.MinValue);
         Console.WriteLine(Int64.MaxValue);
     }
 
