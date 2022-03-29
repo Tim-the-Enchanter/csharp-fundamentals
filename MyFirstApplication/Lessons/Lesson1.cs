@@ -4,18 +4,18 @@ namespace MyFirstApplication;
 /*
  This class goes over Value Types.
  */
-internal class Lesson1
+    internal class Lesson1
 {
     // Integral Signed
 
     // sbyte range -128 to 127
-    sbyte mySByte = 2;
+        sbyte mySByte = 2;
 
-    public void SByteMinMax()
-    {
-        Console.WriteLine(Int16.MinValue);
-        Console.WriteLine(Int16.MaxValue); 
-    }
+        public void SByteMinMax()
+        {
+            Console.WriteLine(Int16.MinValue);
+            Console.WriteLine(Int16.MaxValue); 
+        }
 
     // short range -32,768 to 32,767
     short myShort = 6;
@@ -142,5 +142,7 @@ internal class Lesson1
     public void LongFromInt()
     {
         long someValue = myInt;
+        Console.WriteLine(someValue);
     }
+
 }
