@@ -26,18 +26,15 @@ public class Exercise1
     // Parameters are byte, short and int. Use Implicit conversion with variables converted
     from byte to int, from short to long and int to float
     */
-    public void ImplicitConvert()
+    public void ImplicitConvert(byte myByte, short myShort, int myInt2)
     {
 
-        byte myByte = 4;        
         int myInt = myByte;
         Console.WriteLine(myInt);
 
-        short myShort = 32;        
         long myLong = myShort;
         Console.WriteLine(myLong);
 
-        int myInt2 = 777;
         float myFloat = myInt2;
         Console.WriteLine(myFloat);
     }
@@ -53,22 +50,14 @@ public class Exercise1
     c.From long to short
     */
 
-    public void ExplicitConvert()
-    {
-
-        double myDouble = 7.77;
-        long myLong = (long)(double)myDouble;
-
-        Console.WriteLine(myDouble);
+    public void ExplicitConvert(double myDouble, float myFloat, long myLong2)
+    {        
+        long myLong = (long)myDouble;      
         Console.WriteLine(myLong);
-
-        float myFloat = 77.89F;
+       
         int myInt = (int)myFloat;
-
-        Console.WriteLine(myFloat);
         Console.WriteLine(myInt);
 
-        long myLong2 = 777;
         short myShort = (short)myLong2;
         Console.WriteLine(myLong2);
     }
@@ -89,11 +78,11 @@ public class Exercise1
     public void ValueTypes()
     {
         
-        double value1 = 123_456.987; // double
+        float value1 = 123_456.987F; // float
         int value2 = -9_516_248; // 32 bit int
         short value3 = 3_500; // short value
         uint value4 = 988_562_486; // uint value
-        decimal value5 = (decimal)-19_733.148_95; // long value
+        double value5 = -19_733.148_95; // double value
 
         Console.WriteLine(value1);
         Console.WriteLine(value2);
