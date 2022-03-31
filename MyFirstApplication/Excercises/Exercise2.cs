@@ -70,7 +70,7 @@ internal class Exercise2
 
     public string MyNurseryRhyme()
     {
-        return "Jack and Jill \nwent up the hill \nto fetch a pail of water \nJack fell down and broke his crown" +
+        return "Jack and Jill \nwent up the hill \nto fetch a pail of water, \nJack fell down and broke his crown" +
             "\nand Jill came tumbling after.";
     }
 
@@ -87,7 +87,7 @@ internal class Exercise2
 
     public string MyMovieInfo()
     {
-        return $"My name is {myName}, my favorite movie is {myMovie}. I like to eat {myCandy} while drinking {myDrink}.";
+        return $"My name is {myName}, my favorite movie is {myMovie} & I like to eat {myCandy} while drinking {myDrink}.";
 
     }
 } // END Class
