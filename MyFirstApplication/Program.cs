@@ -22,7 +22,6 @@ inside that member.
 // Lesson2Example();
 // Exercise1Test();
 Exercise2();
-MyNurseryRhyme();
 
 
 
@@ -97,20 +96,14 @@ void Exercise2()
 {
     Exercise2 myExercise2 = new Exercise2();
     myExercise2.MyJoinedStrings(" EXERCISE two lab ");
+    
+    Console.WriteLine(myExercise2.MyMovieInfo());
+    myExercise2.MyExampleChar();
+    Console.WriteLine(myExercise2.MyNurseryRhyme());
+
+    
+
 }
-
-void MyNurseryRhyme()
-{
-
-    return;
-
-}
-
-
-void MyMovieInfo()
-    Console.WriteLine(MyMovieInfo.MyInterpolationExample("Tim", "5th Element", "Mike n Ikes", "Coke"));
-    MyMovieInfo.MyOtherInterpolation();
-
 
 
 

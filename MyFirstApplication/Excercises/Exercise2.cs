@@ -19,24 +19,28 @@ namespace MyFirstApplication;
 internal class Exercise2
 {
     string myString = " EXERCISE two lab ";
+    string myName = "Tim";
+    string myMovie = "5th Element";
+    string myCandy = "Mike n Ikes";
+    string myDrink = "Coke";
 
     public void MyJoinedStrings(string value1)
     {
         Console.WriteLine("This Is Exercise 1 from Lesson 2 Lab.");
 
         string myTrim = myString.Trim();
-        Console.WriteLine("Trim() =" + myString.Trim());
+        Console.WriteLine("Trim() = " + myString.Trim());
 
         string myLower = myString.ToLower();
-        Console.WriteLine("Lower() =" + myString.ToLower());
+        Console.WriteLine("Lower() = " + myString.ToLower());
 
-        Console.WriteLine("Contains() =" + myString.Contains("tow"));
+        Console.WriteLine("Contains() = " + myString.Contains("tow"));
 
         string myLength = " EXERCISE two lab ";
-        Console.WriteLine("Length() =" + myString.Length);
+        Console.WriteLine("Length() = " + myString.Length);
 
         string myString2 = " Exercise two lab ";
-        Console.WriteLine("IndexOf() =" + myString2.IndexOf('C'));
+        Console.WriteLine("IndexOf() = " + myString2.IndexOf('C'));
 
 
     } // End Method
@@ -79,14 +83,12 @@ internal class Exercise2
     c.Favorite movie snack
     d.Favorite movie drink
     */
-    // WRONG WRONG WRONG WRONG
-    public string MyMovieInfo(string food, int amount)
-    {
-    void MyMovieInfo()
-    Console.WriteLine(MyMovieInfo("Tim", "5th Element", "Mike n Ikes", "Coke"));
-    MyMovieInfo();
-    }
-    // WRONG WRONG WRONG WRONG
 
+
+    public string MyMovieInfo()
+    {
+        return $"My name is {myName}, my favorite movie is {myMovie}. I like to eat {myCandy} while drinking {myDrink}.";
+
+    }
 } // END Class
 
