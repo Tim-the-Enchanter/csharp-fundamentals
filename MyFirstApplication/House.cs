@@ -11,6 +11,6 @@ public class House
     public void DoorOpenClose()
     {
         Console.WriteLine("My door is open.");
-    }
-}
+    } // End Method
+} // End Class
 
