@@ -79,14 +79,14 @@ internal class Exercise2
     c.Favorite movie snack
     d.Favorite movie drink
     */
-
+    // WRONG WRONG WRONG WRONG
     public string MyMovieInfo(string food, int amount)
     {
     void MyMovieInfo()
     Console.WriteLine(MyMovieInfo("Tim", "5th Element", "Mike n Ikes", "Coke"));
     MyMovieInfo();
     }
-
+    // WRONG WRONG WRONG WRONG
 
 } // END Class
 
