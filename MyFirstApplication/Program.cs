@@ -1,4 +1,5 @@
 ﻿using MyFirstApplication;
+using MyFirstApplication.Lessons;
 
 // See https://aka.ms/new-console-template for more information
 // Console.WriteLine("Hello, World!");
@@ -21,9 +22,31 @@ inside that member.
 // MyLocalFunction();
 // Lesson2Example();
 // Exercise1Test();
-Exercise2();
+// Exercise2();
+Lesson3Example();
 
 
+
+// Lesson 3 Operators and Overflow Checking
+void Lesson3Example()
+{
+    Lesson3 myLesson3 = new Lesson3();
+    // myLesson3.BasicCheckedOperator(14);
+    // myLesson3.BasicCheckedExample2();
+    // int alpha = 2147483647;
+    // int total = alpha + 10;
+    // Console.WriteLine(total);
+    // -2147483639
+    // myLesson3.BasicUncheckedExample();
+    // myLesson3.BasicMath();
+    // myLesson3.BasicModulus(783);
+    // myLesson3.basicBooleanLogical(true, false);
+    // myLesson3.BasicCompoundExample(12, 35, 9);
+    // myLesson3.BasicRelationalExample("Tom", "Tim");
+    myLesson3.MyIncrDecrExample();
+
+
+}
 
 
 
