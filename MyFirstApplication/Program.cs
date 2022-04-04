@@ -42,7 +42,7 @@ void Lesson4Example()
     // myLesson4.BasicDoStatement();
     // myLesson4.BasicForStatement();
     // myLesson4.BasicForeachStatement();
-    myLesson4.BasicJumpStatement();
+    // myLesson4.BasicJumpStatement();
 
 
     }
