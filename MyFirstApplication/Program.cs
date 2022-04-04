@@ -23,14 +23,16 @@ inside that member.
 // Lesson2Example();
 // Exercise1Test();
 // Exercise2();
-Lesson3Example();
+// Lesson3Example();
+Exercise3();
+
 
 
 
 // Lesson 3 Operators and Overflow Checking
 void Lesson3Example()
 {
-    Lesson3 myLesson3 = new Lesson3();
+    // Lesson3 myLesson3 = new Lesson3();
     // myLesson3.BasicCheckedOperator(14);
     // myLesson3.BasicCheckedExample2();
     // int alpha = 2147483647;
@@ -43,8 +45,7 @@ void Lesson3Example()
     // myLesson3.basicBooleanLogical(true, false);
     // myLesson3.BasicCompoundExample(12, 35, 9);
     // myLesson3.BasicRelationalExample("Tom", "Tim");
-    myLesson3.MyIncrDecrExample();
-
+    // myLesson3.MyIncrDecrExample();
 
 }
 
@@ -127,8 +128,17 @@ void Exercise2()
     
 
 }
+// Exercise 3 lab test output
+
+void Exercise3()
+{
+    Exercise3 myExercise3 = new Exercise3();
+    Console.WriteLine(myExercise3.MyMathOps);
+
+    myExercise3.MyCompoundOps(77, 69);
 
 
+}
 
 
 
