@@ -1,5 +1,4 @@
 ﻿using MyFirstApplication;
-using MyFirstApplication.Lessons;
 
 // See https://aka.ms/new-console-template for more information
 // Console.WriteLine("Hello, World!");
@@ -24,15 +23,34 @@ inside that member.
 // Exercise1Test();
 // Exercise2();
 // Lesson3Example();
-Exercise3();
+Exercise3(); // ERROR ERROR ERROR NEED HELP FOR UNDERSTANDING
+Lesson4Example();
 
 
 
+// Lesson 4 Control Flow
+void Lesson4Example()
+{
+    Lesson4 myLesson4 = new Lesson4();
+    // myLesson4.BasicIfStatement(11);
+    // myLesson4.BasicIfElseStatement(12);
+    // myLesson4.BasicIfElseChainStatement(5);
+    // myLesson4.BasicAndOrCondition(20, 20);
+    // Console.WriteLine(myLesson4.BasicTernaryExample(25));
+    // myLesson4.BasicSwitchStatement(1);
+    // myLesson4.BasicWhileStatement();
+    // myLesson4.BasicDoStatement();
+    // myLesson4.BasicForStatement();
+    // myLesson4.BasicForeachStatement();
+    myLesson4.BasicJumpStatement();
+
+
+    }
 
 // Lesson 3 Operators and Overflow Checking
 void Lesson3Example()
 {
-    // Lesson3 myLesson3 = new Lesson3();
+    Lesson3 myLesson3 = new Lesson3();
     // myLesson3.BasicCheckedOperator(14);
     // myLesson3.BasicCheckedExample2();
     // int alpha = 2147483647;
