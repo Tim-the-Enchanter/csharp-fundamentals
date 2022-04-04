@@ -1,5 +1,5 @@
 ﻿// CAC-103 Lesson 3 Lab Exercise Operators
-namespace MyFirstApplication.Excercise3;
+namespace MyFirstApplication;
 
 internal class Exercise3
 {
