@@ -1,6 +1,6 @@
 ﻿
 
-namespace MyFirstApplication.Lessons;
+namespace MyFirstApplication;
 
 
 /*
