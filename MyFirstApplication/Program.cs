@@ -25,7 +25,7 @@ inside that member.
 // Lesson3Example();
 Exercise3(); // ERROR ERROR ERROR NEED HELP FOR UNDERSTANDING
 // Lesson4Example();
-Exercise4();
+// Exercise4();
 
 
 
@@ -156,13 +156,6 @@ void Exercise3()
     myExercise3.MyModulus(456);
     myExercise3.MyModulus(23);
     myExercise3.MyModulus(89);
-
-
-    // Console.WriteLine(myExercise3.MyModulus);
-
-    // Console.WriteLine(myExercise3.MyMathOps);
-    // myExercise3.MyCompoundOps(77, 69);
-
 
 }
 
