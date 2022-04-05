@@ -24,7 +24,8 @@ inside that member.
 // Exercise2();
 // Lesson3Example();
 Exercise3(); // ERROR ERROR ERROR NEED HELP FOR UNDERSTANDING
-Lesson4Example();
+// Lesson4Example();
+Exercise4();
 
 
 
@@ -151,11 +152,29 @@ void Exercise2()
 void Exercise3()
 {
     Exercise3 myExercise3 = new Exercise3();
-    Console.WriteLine(myExercise3.MyMathOps);
+    myExercise3.MyModulus(15);
+    myExercise3.MyModulus(456);
+    myExercise3.MyModulus(23);
+    myExercise3.MyModulus(89);
 
-    myExercise3.MyCompoundOps(77, 69);
 
 
+
+
+    // Console.WriteLine(myExercise3.MyModulus);
+
+    // Console.WriteLine(myExercise3.MyMathOps);
+    // myExercise3.MyCompoundOps(77, 69);
+
+
+}
+
+void Exercise4()
+{
+    // Exercise4 myExercise4 = new Exercise4();
+    // Console.WriteLine(myExercise4.BasicEqualsTest);
+    // Console.WriteLine(myExercise4.MyValidGrade);
+    // Console.WriteLine(myIteration);
 }
 
 

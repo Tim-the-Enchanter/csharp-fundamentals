@@ -14,25 +14,27 @@ internal class Exercise3
     d.89
     e.245
     */
-    int total1 = 15;
-    int total2 = 456;
-    int total3 = 23;
-    int total4 = 89;
-
-
-    public void MyModulus(in int arg)
+    
+    public int MyModulus(int arg)
     {
-        // int total1 = 15 % total1;
-        Console.WriteLine(total1);
+        int total1 = 15;
+        int total2 = 456;
+        int total3 = 23;
+        int total4 = 89;
 
-        // int total2 = 456 % total2;
-        Console.WriteLine(total2);
+        Console.WriteLine(total1 % arg);
+        Console.WriteLine(total2 % arg);
+        Console.WriteLine(total3 % arg);
+        Console.WriteLine(total4 % arg);
 
-        // int total3 = 23 % total3;
-        Console.WriteLine(total3);
+        return total1 % arg;
+        return total2 % arg;
+        return total3 % arg;
+        return total4 % arg;
 
-        // int total4 = 89 % total4;
-        Console.WriteLine(total4);
+
+
+
     } // End Method
 
     /*
