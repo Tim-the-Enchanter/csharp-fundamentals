@@ -158,9 +158,6 @@ void Exercise3()
     myExercise3.MyModulus(89);
 
 
-
-
-
     // Console.WriteLine(myExercise3.MyModulus);
 
     // Console.WriteLine(myExercise3.MyMathOps);
