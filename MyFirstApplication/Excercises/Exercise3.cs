@@ -15,25 +15,24 @@ internal class Exercise3
     e.245
     */
     
-    public int MyModulus(int arg)
+    public int MyModulus(int mArg)
     {
+        int arg = mArg;
         int total1 = 15;
         int total2 = 456;
         int total3 = 23;
         int total4 = 89;
+        int total5 = 245;
 
         Console.WriteLine(total1 % arg);
         Console.WriteLine(total2 % arg);
         Console.WriteLine(total3 % arg);
         Console.WriteLine(total4 % arg);
 
-        return total1 % arg;
-        return total2 % arg;
-        return total3 % arg;
-        return total4 % arg;
+        return total5 % arg;
+        
 
-
-
+        
 
     } // End Method
 
@@ -44,17 +43,18 @@ internal class Exercise3
     b.Output: 168
     c.Output: 131
     */
+    
     public void MyMathOps()
-    {
-        int able = 32, beta = 12, delta = 10, echo = 3;
+    {        
+        int eq1 = 10 + (32 * 12 / 3);
+        // Output: 138        
+        Console.WriteLine(eq1);
+        // Output: 168
+        Console.WriteLine(eq1 + 30);
+        // Output: 131
+        Console.WriteLine(eq1 - 7);
 
 
-        int addTotal = delta + beta;
-        int multiplyTotal = able * beta;
-        int divideTotal = able / beta;
-
-        Console.WriteLine($"Addition = {addTotal}");
-        Console.WriteLine($"Multiplication = {multiplyTotal}, Division = {divideTotal}");
     } // End Method
 
     /* 

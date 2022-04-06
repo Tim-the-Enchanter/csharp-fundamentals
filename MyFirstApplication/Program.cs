@@ -152,10 +152,10 @@ void Exercise2()
 void Exercise3()
 {
     Exercise3 myExercise3 = new Exercise3();
-    myExercise3.MyModulus(15);
-    myExercise3.MyModulus(456);
-    myExercise3.MyModulus(23);
-    myExercise3.MyModulus(89);
+    myExercise3.MyModulus(5);
+    myExercise3.MyMathOps();
+    myExercise3.MyCompoundOps(77, 5);
+
 
 }
 
@@ -165,6 +165,7 @@ void Exercise4()
     // Console.WriteLine(myExercise4.BasicEqualsTest);
     // Console.WriteLine(myExercise4.MyValidGrade);
     // Console.WriteLine(myIteration);
+    
 }
 
 
