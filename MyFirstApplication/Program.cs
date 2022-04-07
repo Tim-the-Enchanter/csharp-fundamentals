@@ -23,7 +23,7 @@ inside that member.
 // Exercise1Test();
 // Exercise2();
 // Lesson3Example();
-Exercise3(); // ERROR ERROR ERROR NEED HELP FOR UNDERSTANDING
+Exercise3();
 // Lesson4Example();
 // Exercise4();
 
@@ -153,7 +153,7 @@ void Exercise3()
 {
     Exercise3 myExercise3 = new Exercise3();
     // myExercise3.MyModulus(5);
-    // myExercise3.MyMathOps();
+    myExercise3.MyMathOps();
     // myExercise3.MyCompoundOps(25, 5);
     // myExercise3.MyBoolLogical(true, false);
     // myExercise3.MyBoolLogical(false, false);
@@ -168,9 +168,9 @@ void Exercise4()
     Exercise4 myExercise4 = new Exercise4();
     
     // myExercise4.BasicEqualsTest();
-    Console.WriteLine(myExercise4.BasicEqualsTest);
+    // myExercise4.BasicEqualsTest("AAA", "AAA");
     // Console.WriteLine(myExercise4.MyValidGrade);
-    // Console.WriteLine(myIteration);
+    // myExercise4.MyIteration();
     
 }
 

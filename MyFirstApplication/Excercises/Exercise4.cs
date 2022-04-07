@@ -12,16 +12,13 @@ internal class Exercise4
     public void BasicEqualsTest(string arg1, string arg2)
     {
 
-        string AAA = arg1;
-        string ZZZ = arg2;
-
-        if (arg1 == AAA)
+        if (arg1 == arg2)
         {
-            Console.WriteLine($"This is string {arg1}.");
+            Console.WriteLine("Both args are equal.");
         }
         else 
         {
-            Console.WriteLine($"This is string {arg2}.");
+            Console.WriteLine("Both args are not equal.");
         }
 
      
@@ -64,21 +61,12 @@ internal class Exercise4
     */
     public void MyIteration()
     {
-
         for (int i = 0; i < 30; i++)
         {
-            if (i == 2)
-            {
-                Console.WriteLine($"The {i} was skipped");
-                continue;
+            if (i % 3 == 0)
+            { 
+                Console.WriteLine(i);
             }
-            if (i == 4)
-            {
-                Console.WriteLine($"THe Loop breaks at {i}");
-                break;
-            }
-            Console.WriteLine($"Number = {i}");
         }
-
     } // End Method    
 } // End Class
