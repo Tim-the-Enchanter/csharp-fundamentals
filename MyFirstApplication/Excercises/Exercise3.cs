@@ -67,19 +67,16 @@ internal class Exercise3
     d.%=
     */
 
-    public void MyCompoundOps(int val1, int val2)
+    public void MyCompoundOps(short val1, short val2)
     {
-        val1 += val2;
-        Console.WriteLine(val1);
 
-        val1 /= (val2 + val1);
-        Console.WriteLine(val1);
+        Console.WriteLine(val1 /= val2);
+        Console.WriteLine(val1 %= val2);
+        Console.WriteLine(val1 *= val2);
+        Console.WriteLine(val1 += val2);
 
-        val1 *= val2;
-        Console.WriteLine(val1);
 
-        val1 %= (val2 + val1);
-        Console.WriteLine(val1);
+
     } // End Method
 
     /*
@@ -93,18 +90,16 @@ internal class Exercise3
     d.Argument1= false, Argument2 = true
      */
 
-    public void MyBoolLogical(bool arg, bool arg2)
+    public void MyBoolLogical(bool arg1, bool arg2)
     {
         // And
-        Console.WriteLine(arg & arg2);
+        Console.WriteLine(arg1 & arg2); // False
         // Or
-        Console.WriteLine(arg | arg2);
+        Console.WriteLine(arg1 | arg2); // True
         //Exclusive Or
-        Console.WriteLine(arg ^ arg2);
-        // &&
-        Console.WriteLine(23 > 10 && 10 < 5);
+        Console.WriteLine(arg1 ^ arg2); // True
         // ||
-        Console.WriteLine(23 > 10 || 10 < 7);
+        Console.WriteLine(arg1 || arg2); // True
     } // End Method
 
 } // End Class

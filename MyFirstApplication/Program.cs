@@ -152,9 +152,13 @@ void Exercise2()
 void Exercise3()
 {
     Exercise3 myExercise3 = new Exercise3();
-    myExercise3.MyModulus(5);
-    myExercise3.MyMathOps();
-    myExercise3.MyCompoundOps(77, 5);
+    // myExercise3.MyModulus(5);
+    // myExercise3.MyMathOps();
+    // myExercise3.MyCompoundOps(25, 5);
+    myExercise3.MyBoolLogical(true, false);
+    // myExercise3.MyBoolLogical(false, false);
+    // myExercise3.MyBoolLogical(true, true);
+    // myExercise3.MyBoolLogical(false, true);
 
 
 }
