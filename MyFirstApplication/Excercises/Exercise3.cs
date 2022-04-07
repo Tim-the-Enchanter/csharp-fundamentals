@@ -46,13 +46,12 @@ internal class Exercise3
     
     public void MyMathOps()
     {        
-        int eq1 = 10 + (32 * 12 / 3);
         // Output: 138        
-        Console.WriteLine(eq1);
+        Console.WriteLine(10 + 32 * 12 / 3);
         // Output: 168
-        Console.WriteLine(eq1 + 30);
+        Console.WriteLine((10 + 32) * 12 / 3);
         // Output: 131
-        Console.WriteLine(eq1 - 7);
+        Console.WriteLine((10 + 32 * 12) / 3);
 
 
     } // End Method
@@ -80,7 +79,7 @@ internal class Exercise3
     } // End Method
 
     /*
-     Write a method that takes two bool type arguments and a void return type. Using Boolean Logical 
+     4. Write a method that takes two bool type arguments and a void return type. Using Boolean Logical 
     operators &, |, ^, and || to complete this task. Use a Console.WriteLine statement to calculate each result
     using the operators. The second argument is the left operand. Use the below values when testing your method.
     Using comments, provide your output results inside the method after your statements.
