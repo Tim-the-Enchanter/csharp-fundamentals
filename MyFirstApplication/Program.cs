@@ -155,7 +155,7 @@ void Exercise3()
     // myExercise3.MyModulus(5);
     // myExercise3.MyMathOps();
     // myExercise3.MyCompoundOps(25, 5);
-    myExercise3.MyBoolLogical(true, false);
+    // myExercise3.MyBoolLogical(true, false);
     // myExercise3.MyBoolLogical(false, false);
     // myExercise3.MyBoolLogical(true, true);
     // myExercise3.MyBoolLogical(false, true);
@@ -165,8 +165,10 @@ void Exercise3()
 
 void Exercise4()
 {
-    // Exercise4 myExercise4 = new Exercise4();
-    // Console.WriteLine(myExercise4.BasicEqualsTest);
+    Exercise4 myExercise4 = new Exercise4();
+    
+    // myExercise4.BasicEqualsTest();
+    Console.WriteLine(myExercise4.BasicEqualsTest);
     // Console.WriteLine(myExercise4.MyValidGrade);
     // Console.WriteLine(myIteration);
     

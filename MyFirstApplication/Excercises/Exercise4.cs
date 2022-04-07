@@ -4,30 +4,29 @@ namespace MyFirstApplication;
 internal class Exercise4
 {
     /*
-     1.Write amethod that takes 2 string arguments and a void return type. 
+     1.Write a method that takes 2 string arguments and a void return type. 
     Using and if-else statement, compare the two strings to each other. 
     Using a Console WriteLine statement, print out the results of whether the strings are equal.
     Provide a comment inside the method that says what strings you used during testing.     
      */
-    // IT would be helpful to have a string reference in the lesson code writing to look back on. We only used 'int' in "code examples"
     public void BasicEqualsTest(string arg1, string arg2)
     {
 
-        string AAA = null;
-        string ZZZ = null;
+        string AAA = arg1;
+        string ZZZ = arg2;
 
         if (arg1 == AAA)
         {
-            Console.WriteLine($"Our {arg1} is First.");
+            Console.WriteLine($"This is string {arg1}.");
         }
-        else if (arg2 == ZZZ)
+        else 
         {
-            Console.WriteLine($"{arg2} is Last");
+            Console.WriteLine($"This is string {arg2}.");
         }
-        else
-        {
-            Console.WriteLine($"{arg2} is not the same.");
-        }
+
+     
+
+
 
     } // End Method
 
@@ -35,6 +34,7 @@ internal class Exercise4
      Write a method that will take 1 char argument and a string return type. Using a switch and the table below,
     return the description. If the value does not match the grade, return the default message, “Not a valid grade”     
      */
+
     public void MyValidGrade(int /*char?*/ arg3)
     {
         switch (arg3)
@@ -57,8 +57,9 @@ internal class Exercise4
         }
     } // End Method
 
+
     /*
-    3.Write a method that takes no argumentsand a void return type. Using an iteration statement, 
+    3.Write a method that takes no arguments and a void return type. Using an iteration statement, 
     display all the numbers divisible by 3 from 0 to 30. Utilize a modulus to obtain your results.
     */
     public void MyIteration()
@@ -80,7 +81,4 @@ internal class Exercise4
         }
 
     } // End Method    
-
-
-
 } // End Class
