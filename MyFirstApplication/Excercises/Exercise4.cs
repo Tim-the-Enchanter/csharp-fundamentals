@@ -25,27 +25,22 @@ internal class Exercise4
 
     /*
      2. Write a method that will take 1 char argument and a string return type. Using a switch and the table below,
-    return the description. If the value does not match the grade, return the default message, “Not a valid grade”     
+    return the description. If the value does not match the grade, return the default message, “Not a valid grade”
+    Grade Description
+    E       Excellent
+    V       Very Good
+    G       Good
+    A       Average
+    F       Fail
      */
 
-    public void MyValidGrade(int /*char?*/ arg3)
+    public void MyValidGrade(char arg3)
     {
         switch (arg3)
         {
-            case 1:
-                Console.WriteLine($"{arg3} is ");
-                break;
-            case 2:
-                Console.WriteLine($"{arg3 is 1 or 2}");
-                break;
-            case 3:
-                Console.WriteLine($"{arg3} is 3");
-                break;
-            case 4:
-                Console.WriteLine($"{arg3} is 4");
-                break;
+            // NO IDEA>>>>NEED CLARIFICATION
             default:
-                Console.WriteLine($"{arg3} not a valid grade.");
+                Console.WriteLine($"{arg3} is not a valid grade.");
                 break;
         }
     } // End Method
