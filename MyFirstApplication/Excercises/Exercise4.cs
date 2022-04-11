@@ -19,16 +19,12 @@ internal class Exercise4
         else 
         {
             Console.WriteLine("Both args are not equal.");
-        }
-
-     
-
-
+        } 
 
     } // End Method
 
     /*
-     Write a method that will take 1 char argument and a string return type. Using a switch and the table below,
+     2. Write a method that will take 1 char argument and a string return type. Using a switch and the table below,
     return the description. If the value does not match the grade, return the default message, “Not a valid grade”     
      */
 
@@ -49,7 +45,7 @@ internal class Exercise4
                 Console.WriteLine($"{arg3} is 4");
                 break;
             default:
-                Console.WriteLine($"{arg3} was not in the list");
+                Console.WriteLine($"{arg3} not a valid grade.");
                 break;
         }
     } // End Method
