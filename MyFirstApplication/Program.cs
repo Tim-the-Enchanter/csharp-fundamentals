@@ -169,7 +169,7 @@ void Exercise4()
     
     // myExercise4.BasicEqualsTest();
     myExercise4.BasicEqualsTest("AAA", "AAA");
-    myExercise4.MyValidGrade(107);
+    Console.WriteLine(myExercise4.MyValidGrade('E'));
     myExercise4.MyIteration();
     
 }

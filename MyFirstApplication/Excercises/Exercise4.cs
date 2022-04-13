@@ -33,15 +33,24 @@ internal class Exercise4
     A       Average
     F       Fail
      */
-
-    public void MyValidGrade(char arg3)
+    public string MyValidGrade(char gradearg)
     {
-        switch (arg3)
+        switch (gradearg)
         {
-            // NO IDEA>>>>NEED CLARIFICATION
+            case 'E':
+                return "E - Excellent!";
+            case 'V':
+                return "V - Very Good!";
+            case 'G':
+                return "G - Good!";
+            case 'A':
+                return "A - Average";
+            case 'F':
+                return "F - FAIL!";
+
             default:
-                Console.WriteLine($"{arg3} is not a valid grade.");
-                break;
+                return "Not a valid grade";
+                
         }
     } // End Method
 
