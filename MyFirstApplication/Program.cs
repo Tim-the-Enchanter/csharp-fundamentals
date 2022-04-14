@@ -29,7 +29,33 @@ inside that member.
 // Lesson5Example();
 // Exercise5();
 // Lesson6Examples();
-Exercise6();
+// Exercise6();
+Lesson7Example();
+
+
+void Lesson7Example()
+{
+    Location myLocation = new Location(34.5, 47.8);
+    Console.WriteLine(myLocation.Latitude);
+    Console.WriteLine(myLocation);
+
+    // Readonly Struct
+    Student myStudent = new Student(777, "Tim");
+    Console.WriteLine(myStudent);
+    Console.WriteLine(myStudent.StudentName);
+
+    // Record
+    Person person = new Person("Nancy", "Drew");
+    Console.WriteLine(person);
+    Console.WriteLine(person.LastName);
+
+    // Struct Record
+    Resolution res = new Resolution(1920, 1080);
+    res.CalculateRes();
+    Console.WriteLine(res);
+}
+
+
 
 void Exercise6()
 {
