@@ -28,7 +28,18 @@ inside that member.
 // Exercise4();
 // Lesson5Example();
 // Exercise5();
-Lesson6Examples();
+// Lesson6Examples();
+Exercise6();
+
+void Exercise6()
+{
+    // Constructor
+    Exercise6 myexercise6 = new Exercise6(11, "Running");
+    Exercise6.TryOn shoe = myexercise6.TryOnShoe;
+    shoe($"I tried on a {myexercise6.ShoeType} shoe that was a size {myexercise6.ShoeSize}");
+
+    Console.WriteLine();
+}
 
 void Lesson6Examples()
 {
@@ -37,8 +48,6 @@ void Lesson6Examples()
     Lesson6 myLessonHats = new Lesson6("Cowboy", 7);
     Lesson6.TryOn theHat = myLessonHats.TryOnHat;
     theHat($"I tried on a {myLessonHats.HatType} hat that was size { mylesson6.HatSize}");
-
-
 
     Console.WriteLine();
 
@@ -260,7 +269,6 @@ void Exercise5()
     Console.WriteLine(myExercise5.ValidCheck("E"));
     myExercise5.PopcornSize(64);
 }
-
 
 
 
