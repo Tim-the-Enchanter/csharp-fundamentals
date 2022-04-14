@@ -6,7 +6,7 @@ namespace MyFirstApplication;
  */
 internal class Lesson6
 {
-    // DElegates
+    // Delegates
     public delegate void TryOn(string type);
     public delegate void TryOnAnotherHat(string type);
 
