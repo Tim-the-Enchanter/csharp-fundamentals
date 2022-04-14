@@ -26,7 +26,8 @@ inside that member.
 // Exercise3();
 // Lesson4Example();
 // Exercise4();
-Lesson5Example();
+// Lesson5Example();
+Exercise5();
 
 // Lesson 5 Expressions & Pattern MAtching
 void Lesson5Example()
@@ -57,8 +58,8 @@ void Lesson5Example()
     // mylesson5.DrinkSize(33);
 
     // Logical Patterns
-    mylesson5.TemperatureGuide(48.6);
-    mylesson5.NumberChoice(3);
+    // mylesson5.TemperatureGuide(48.6);
+    // mylesson5.NumberChoice(3);
 
 }
 
@@ -205,6 +206,15 @@ void Exercise4()
     Console.WriteLine(myExercise4.MyValidGrade('E'));
     myExercise4.MyIteration();
     
+}
+
+void Exercise5()
+{
+    Exercise5 myExercise5 = new Exercise5();
+
+    Console.WriteLine(myExercise5.OhmsLaw(55,6));
+    Console.WriteLine(myExercise5.ValidCheck("E"));
+    myExercise5.PopcornSize(64);
 }
 
 
