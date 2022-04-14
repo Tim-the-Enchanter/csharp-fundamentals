@@ -19,9 +19,6 @@ void Exercise6()
 
 internal class Exercise6
 {
-    // Delegates
-    public delegate void TryOn(string type);
-
     /*
      1.Write a constructor for your exercise file that takes 2 parameters.The first parameter should have an int type
     and a variable name of shoeSize. The second parameter should have a string type and a variable name of shoeType. 
@@ -62,6 +59,9 @@ internal class Exercise6
     Test your delegate in Program.cs to ensure everything works properly. Using a mult-line comment on your Exercise6.cs file, 
     provide the information you used to test the delegate.
     */
+    // Delegates
+    public delegate void TryOn(string type);
+
     public Exercise6(string type, int size)
     {
         _shoeType = type;

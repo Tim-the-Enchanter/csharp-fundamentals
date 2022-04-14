@@ -29,8 +29,8 @@ inside that member.
 // Lesson5Example();
 // Exercise5();
 // Lesson6Examples();
-// Exercise6();
-Lesson7Example();
+Exercise6();
+// Lesson7Example();
 
 
 void Lesson7Example()
@@ -53,18 +53,6 @@ void Lesson7Example()
     Resolution res = new Resolution(1920, 1080);
     res.CalculateRes();
     Console.WriteLine(res);
-}
-
-
-
-void Exercise6()
-{
-    // Constructor
-    Exercise6 myexercise6 = new Exercise6(11, "Running");
-    Exercise6.TryOn shoe = myexercise6.TryOnShoe;
-    shoe($"I tried on a {myexercise6.ShoeType} shoe that was a size {myexercise6.ShoeSize}");
-
-    Console.WriteLine();
 }
 
 void Lesson6Examples()
@@ -295,6 +283,16 @@ void Exercise5()
     Console.WriteLine(myExercise5.ValidCheck("E"));
     myExercise5.PopcornSize(64);
 }
+void Exercise6()
+{
+    // Constructor
+    Exercise6 myexercise6 = new Exercise6(11, "Running");
+    Exercise6.TryOn shoe = myexercise6.TryOnShoe;
+    shoe($"I tried on a {myexercise6.ShoeType} shoe that was a size {myexercise6.ShoeSize}");
+
+    Console.WriteLine();
+}
+
 
 
 
