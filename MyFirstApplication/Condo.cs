@@ -1,5 +1,6 @@
 ﻿namespace MyFirstApplication;
 
+/*
 internal class Condo : House
 {
     private string _balcony;
@@ -26,7 +27,7 @@ internal class Condo : House
     }
 
 
-    public override void DoorOpenClose()
+     public override void DoorOpenClose()
     {
         Console.WriteLine($"The {DoorColor} door is creaking.");
     }
@@ -35,5 +36,6 @@ internal class Condo : House
     {
         Console.WriteLine($"Fixing the {_balcony} on appartment 2.");
     }
-
+    
 } // end class
+*/
