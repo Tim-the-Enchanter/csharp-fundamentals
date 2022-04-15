@@ -1,13 +1,12 @@
-﻿// CAC-103 Exercise 7 Structs & Records
-
-namespace MyFirstApplication;
-    /*
-     1.Change the type from class to struct. Change the name of the struct from Exercise7 to Employee.
-    The file name should not be changed. Create 2 struct variables. The first one will be of type int and be named _id.
-    The second variable should be of type string and be named _name. Create a constructor that takes 2 arguments, with 
-    the first being an int and the second a string. The struct variables should be assigned to the constructor parameters.
-    Create properties for these 2 variables.
-    */
+﻿namespace MyFirstApplication;
+// CAC-103 Exercise 7 Structs & Records
+/*
+ 1.Change the type from class to struct. Change the name of the struct from Exercise7 to Employee.
+The file name should not be changed. Create 2 struct variables. The first one will be of type int and be named _id.
+The second variable should be of type string and be named _name. Create a constructor that takes 2 arguments, with 
+the first being an int and the second a string. The struct variables should be assigned to the constructor parameters.
+Create properties for these 2 variables.
+*/
 
 internal struct Employee
 {   // struct variables
