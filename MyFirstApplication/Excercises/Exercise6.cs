@@ -1,7 +1,5 @@
-﻿// CAC-103 Exercise 6 Constructors and Methods
-
-namespace MyFirstApplication;
-
+﻿namespace MyFirstApplication;
+// CAC-103 Exercise 6 Constructors and Methods
 /*
  * *** Here is my program.cs that produced "TryOnShoe = I tried on a Running shoe that was a size 11"
  Exercise6();
