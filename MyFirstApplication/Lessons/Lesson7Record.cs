@@ -19,3 +19,19 @@ public record struct Resolution(int width, int height)
         Console.WriteLine(width * height);
     }
 } // End Record
+
+
+// internal record Person(int ID, string Name);
+
+/*
+ MyBoat Record
+*/
+/*public record struct BoatRecord(int length, string color)
+{
+
+    public void BoatRec()
+    {
+        Console.WriteLine("length" * color);
+    }
+} // End Record
+*/
