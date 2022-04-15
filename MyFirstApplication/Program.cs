@@ -29,8 +29,42 @@ inside that member.
 // Lesson5Example();
 // Exercise5();
 // Lesson6Examples();
-Exercise6();
+// Exercise6();
+// BottlesOfBeerSong();
 // Lesson7Example();
+// Exercise7();
+// Lesson8Example();
+// Exercise8();
+// Lesson9Example();
+
+void Lesson9Example()
+{
+    Lesson9 myLesson9 = new Lesson9();
+    Lesson9.Nested nested = new Lesson9.Nested(myLesson9);
+
+    // Access Modifiers
+    myLesson9.SampleInternal();
+    myLesson9.SampleProtectedInternal();
+}
+
+void Lesson8Example()
+{
+    Lesson8 myLesson8 = new Lesson8(3);
+    // Calling constant directly
+    Console.WriteLine(Lesson8.DaysPerMonth);
+
+    // Calculate temperature
+    Console.WriteLine(Lesson8Static.CelsiusToFahrenheit(45.6));
+
+    // Static methods
+    Lesson8.DayCount = 10;
+    myLesson8.CalculateHours();
+    Lesson8.CalculateDayCount();
+    Console.WriteLine($"The calculation has been done {Lesson8.DayCount} times");
+
+    // Static Lambda
+    myLesson8.CalculateHoursV2();
+}
 
 
 void Lesson7Example()
@@ -261,7 +295,6 @@ void Exercise3()
     // myExercise3.MyBoolLogical(true, true);
     // myExercise3.MyBoolLogical(false, true);
 
-
 }
 
 void Exercise4()
@@ -291,6 +324,21 @@ void Exercise6()
     shoe($"I tried on a {myexercise6.ShoeType} shoe that was a size {myexercise6.ShoeSize}");
 
     Console.WriteLine();
+}
+
+void BottlesOfBeerSong()
+{
+    BottlesOfBeer myBottlesOfBeer = new BottlesOfBeer();
+    myBottlesOfBeer.LetsSing();
+}
+
+void Exercise7()
+{
+    // Readonly Struct
+    Employee myEmployee = new Employee(78, "Tim");
+    Console.WriteLine(myEmployee.EmployeeName);
+
+
 }
 
 
