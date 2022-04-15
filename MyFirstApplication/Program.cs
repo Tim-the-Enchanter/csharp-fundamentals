@@ -32,7 +32,7 @@ inside that member.
 // Exercise6();
 // BottlesOfBeerSong();
 // Lesson7Example();
-// Exercise7();
+Exercise7();
 // Lesson8Example();
 // Exercise8();
 // Lesson9Example();
@@ -235,6 +235,7 @@ void Lesson1Example()
     myLesson.LongFromInt();
 }
 
+/*
 void CondoExample()
 {
     Condo myCondo = new Condo();
@@ -242,7 +243,7 @@ void CondoExample()
     myCondo.DoorOpenClose();
     // Console.WriteLine(myCondo.RoofType);
 }
-
+*/
 void HouseExample()
 {
     House myHouse = new House();
