@@ -348,7 +348,10 @@ void Exercise7()
     Employee myEmployee = new Employee(78, "Tim");
     Console.WriteLine(myEmployee.EmployeeName);
 
-
+    // Struct Record
+    BoatRecord myBoat = new BoatRecord("White", "Yacht");
+    myBoat.BoatRec();
+    Console.WriteLine(myBoat);
 }
 
 

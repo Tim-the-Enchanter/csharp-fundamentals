@@ -31,13 +31,43 @@ internal struct Employee
     }
 
 } // End Struct
-    
-    /*
-    2.Create a Record based on your Boat object from the Object Oriented Programming lesson. In your record body, include 
-    the boat method that you defined. This record can be in the same file as exercise 1. Just put the code under it as seen 
-    in the lecture. Test your record to ensure it is working correctly.       
-     */
+
+/*
+2.Create a Record based on your Boat object from the Object Oriented Programming lesson. In your record body, include 
+the boat method that you defined. This record can be in the same file as exercise 1. Just put the code under it as seen 
+in the lecture. Test your record to ensure it is working correctly.       
+ */
+//*************NOT SURE WHAT YOU WANT HERE**************************************************************************
+//******************************************************************************************************************
+/*
+void Exercise7()
+{
+    // Readonly Struct
+    Employee myEmployee = new Employee(78, "Tim");
+    Console.WriteLine(myEmployee.EmployeeName);
+
+    // Struct Record
+    BoatRecord myBoat = new BoatRecord("White", "Yacht");
+    myBoat.BoatRec();
+    Console.WriteLine(myBoat);
+}
 
 
+// boat record
+internal record Boat(string Color, string Type);
+
+
+// MyBoat Record
+
+public record struct BoatRecord(string color, string type)
+{
+
+    public void BoatRec()
+    {
+        Console.WriteLine(color, type);
+    }
+} // End Record
+
+*/
 
 
