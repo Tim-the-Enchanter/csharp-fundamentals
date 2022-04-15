@@ -36,6 +36,9 @@ inside that member.
 // Lesson8Example();
 // Exercise8();
 // Lesson9Example();
+// CondoExample();
+
+
 
 void Lesson9Example()
 {
@@ -221,13 +224,6 @@ void Lesson2Example()
 
 }
 
-
-void HouseExample()
-{
-    House myHouse = new House();
-    myHouse.DoorOpenClose();
-}
-
 // Lesson 1 Value Types
 
 void Lesson1Example()
@@ -237,6 +233,20 @@ void Lesson1Example()
     myLesson.IntegralExample();
     myLesson.ConvertFloatToInt();
     myLesson.LongFromInt();
+}
+
+void CondoExample()
+{
+    Condo myCondo = new Condo();
+    myCondo.Maintenance();
+    myCondo.DoorOpenClose();
+    // Console.WriteLine(myCondo.RoofType);
+}
+
+void HouseExample()
+{
+    House myHouse = new House();
+    myHouse.DoorOpenClose();
 }
 
 /*
@@ -278,10 +288,9 @@ void Exercise2()
     Console.WriteLine(myExercise2.MyMovieInfo());
     myExercise2.MyExampleChar();
     Console.WriteLine(myExercise2.MyNurseryRhyme());
-
-    
-
+       
 }
+
 // Exercise 3 lab test output
 
 void Exercise3()
