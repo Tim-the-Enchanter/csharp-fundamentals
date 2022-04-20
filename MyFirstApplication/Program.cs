@@ -32,9 +32,9 @@ inside that member.
 // Exercise6();
 // BottlesOfBeerSong();
 // Lesson7Example();
-Exercise7();
+// Exercise7();
 // Lesson8Example();
-// Exercise8();
+Exercise8a();
 // Lesson9Example();
 // CondoExample();
 
@@ -62,7 +62,7 @@ void Lesson8Example()
     // Static methods
     Lesson8.DayCount = 10;
     myLesson8.CalculateHours();
-    Lesson8.CalculateDayCount();
+    // Lesson8.CalculateDayCount();
     Console.WriteLine($"The calculation has been done {Lesson8.DayCount} times");
 
     // Static Lambda
@@ -354,7 +354,9 @@ void Exercise7()
     Console.WriteLine(myBoat);
 }
 
-
-
-
-
+void Exercise8a()
+{
+    Exercise8 myExercise8 = new Exercise8();
+    myExercise8.FeetToInches(3);
+    Exercise8.LgthXWdth(7, 7);
+}
