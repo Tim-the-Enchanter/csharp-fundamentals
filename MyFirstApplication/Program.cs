@@ -39,9 +39,16 @@ inside that member.
 // Lesson10Example();
 // CondoExample();
 // HouseUpdated();
-// HorseObj();
+HorseObj();
 // BoatObj();
-Lesson11Example();
+// Lesson11Example();
+StallionChild();
+
+void StallionChild()
+{
+    Stallion myStallion = new Stallion();
+    myStallion.StallionChild();
+}
 
 void Lesson11Example()
 {
