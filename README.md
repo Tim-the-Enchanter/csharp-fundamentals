@@ -12,3 +12,23 @@ This lesson went over strings, char and string methods.
 - Lesson 3 - Operators & Overflow Checking
 This lesson went over different groups of operators, we also look at
 overflow checking.
+
+- Lesson 4 - 
+
+- Lesson 5 - 
+
+- Lesson 6 - 
+
+- Lesson 7 - 
+
+- Lesson 8 - 
+
+- Lesson 9 - 
+
+- Lesson 10 - 
+
+- Lesson 11 - 
+
+- Lesson 12 - 
+
+- Lesson 13 - 
