@@ -9,11 +9,10 @@ Create properties for these 2 variables.
 */
 
 internal struct Employee
-{   // struct variables
+{
     private readonly int _id;
     private readonly string _name;
 
-    // constructor
     public int Id
     {
         get { return _id; }
@@ -22,14 +21,19 @@ internal struct Employee
     public string EmployeeName
     {
         get { return _name; }
-    }   
-    public Employee (int Id, string Name)
+    }
+    public Employee(int Id, string Name)
     {
         this._id = Id;
         this._name = Name;
     }
 
-} // End Struct
+    public record BoatRecord(string color, string type)
+    {
+
+    }
+}
+     // End Struct
 
 /*
 2.Create a Record based on your Boat object from the Object Oriented Programming lesson. In your record body, include 
