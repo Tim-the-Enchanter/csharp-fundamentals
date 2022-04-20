@@ -51,7 +51,7 @@ internal class Lesson9
 
 
     public class Nested
-    {
+    { // constructor
         public Nested(Lesson9 parent)
         {
             Console.WriteLine($"The value is {parent._value}");

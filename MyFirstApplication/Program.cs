@@ -34,8 +34,8 @@ inside that member.
 // Lesson7Example();
 // Exercise7();
 // Lesson8Example();
-Exercise8a();
-// Lesson9Example();
+// Exercise8a();
+Lesson9Example();
 // CondoExample();
 
 
@@ -47,6 +47,7 @@ void Lesson9Example()
 
     // Access Modifiers
     myLesson9.SampleInternal();
+    // myLesson9.SamplePrivate(); inaccessible as private
     myLesson9.SampleProtectedInternal();
 }
 
