@@ -48,8 +48,8 @@ internal class Boat
     }
 
     // second constructor
-    public Boat(string FrameType, string BoatColor)
-        : this(FrameType, BoatColor, "power") { }
+    public Boat(string BoatColor, string FrameType)
+        : this(BoatColor, FrameType, "power") { }
 
 
     // third constructor

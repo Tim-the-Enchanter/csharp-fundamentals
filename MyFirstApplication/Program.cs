@@ -39,8 +39,8 @@ inside that member.
 // Lesson10Example();
 // CondoExample();
 // HouseUpdated();
-HorseObj();
-// BoatObj();
+// HorseObj();
+// EngineState();
 // Lesson11Example();
 StallionChild();
 
@@ -61,7 +61,15 @@ void Lesson11Example()
     Console.WriteLine(total2);
 
 }
-
+/*
+void EngineState()
+{
+    Boat myBoat = new Boat();
+    myBoat.Enginestate();
+}
+// Boat myBoat = new Boat("white", "sail");
+// Console.WriteLine(myBoat);
+*/
 void HouseUpdated()
 {
     // Calling Default
@@ -436,12 +444,3 @@ void HorseObj()
     Horse myHorse = new Horse();
     myHorse.HorseState();
 }
-
-void BoatObj()
-{
-    // Boat myBoat = new Boat();
-    // Console.WriteLine(myBoat);
-    // myBoat.EngineState();    
-}
-// Boat myBoat = new Boat("white", "sail");
-// Console.WriteLine(myBoat);
