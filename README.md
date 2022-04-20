@@ -3,7 +3,7 @@
 This project goes over the Fundamentals of the C# Language. Below I will include
 each lesson and there title. 
 
-- Lesson 1 - Value Types
+- Lesson 1 - Value Types/n
 This lesson went over interger types, floating point numbers, and type conversion.
 
 - Lesson 2 - All about Strings
