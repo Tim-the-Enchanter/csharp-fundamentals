@@ -38,8 +38,9 @@ inside that member.
 // Lesson9Example();
 // Lesson10Example();
 // CondoExample();
-HouseUpdated();
-
+// HouseUpdated();
+// HorseObj();
+BoatObj();
 
 void HouseUpdated()
 {
@@ -409,3 +410,18 @@ void Exercise8a()
     myExercise8.FeetToInches(3);
     Exercise8.LgthXWdth(7, 7);
 }
+
+void HorseObj()
+{
+    Horse myHorse = new Horse();
+    myHorse.HorseState();
+}
+
+void BoatObj()
+{
+    // Boat myBoat = new Boat();
+    // Console.WriteLine(myBoat);
+    // myBoat.EngineState();    
+}
+// Boat myBoat = new Boat("white", "sail");
+// Console.WriteLine(myBoat);
