@@ -42,7 +42,14 @@ inside that member.
 // HorseObj();
 // EngineState();
 // Lesson11Example();
-StallionChild();
+// StallionChild();
+YachtChild();
+
+void YachtChild()
+{
+    Yacht myYacht = new Yacht();
+    myYacht.YachtChild();
+}
 
 void StallionChild()
 {
