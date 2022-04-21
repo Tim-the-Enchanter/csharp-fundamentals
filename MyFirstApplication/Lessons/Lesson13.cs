@@ -22,7 +22,7 @@ internal abstract class Lesson13Base : ILesson13Interface
     // Implmented from interface
     public abstract int Miles { get; }
 
-    // Constructor (not default)
+    // Constructor
     protected Lesson13Base(int num)
     {
         this.num = num;
