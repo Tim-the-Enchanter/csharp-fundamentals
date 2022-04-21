@@ -57,9 +57,21 @@ internal class Boat
         : this("white", "sail") { }
 
     // method for boat
-    public void EngineState()
+    public virtual void EngineState()
     {
         Console.WriteLine($"My {frameType} boat is {boatColor}.");
+    }
+
+    /*
+    3.	In your Boat class, add the virtual keyword to your method created in Lesson 10. Create a second 
+    version of the same method and add a parameter. Include a Console WriteLine method in the new method 
+    that uses the parameter. This parameter needs to be based on one of your properties.
+    */
+
+    // override added to method for boat Exercise 12
+    public void EngineState(string boatColor)
+    {
+        Console.WriteLine($"My {boatColor} boat is a {engineType} beast!");
     }
 
 } // end class

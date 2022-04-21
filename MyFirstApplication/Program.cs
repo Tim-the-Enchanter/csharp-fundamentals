@@ -43,7 +43,9 @@ inside that member.
 // Lesson11Example();
 // StallionChild();
 // YachtChild();
-CondoExample();
+// CondoExample();
+// Lesson12Example();
+
 
 void CondoExample()
 {
@@ -52,8 +54,6 @@ void CondoExample()
     myCondo.DoorOpenClose();
     Console.WriteLine(myCondo.RoofType);
 }
-
-Lesson12Example();
 
 void Lesson12Example()
 {
@@ -74,7 +74,7 @@ void YachtChild()
 void StallionChild()
 {
     Stallion myStallion = new Stallion();
-    myStallion.StallionChild();
+    myStallion.HorseState();
 }
 
 void Lesson11Example()
@@ -88,15 +88,13 @@ void Lesson11Example()
     Console.WriteLine(total2);
 
 }
-/*
+
 void EngineState()
-{
-    Boat myBoat = new Boat();
-    myBoat.Enginestate();
+{    
+    Boat myBoat = new Boat("white", "sail");
+    Console.WriteLine(myBoat.Color);
 }
-// Boat myBoat = new Boat("white", "sail");
-// Console.WriteLine(myBoat);
-*/
+
 void HouseUpdated()
 {
     // Calling Default
@@ -461,4 +459,10 @@ void HorseObj()
 {
     Horse myHorse = new Horse();
     myHorse.HorseState();
+    Console.WriteLine(myHorse.HorseMane);
+    myHorse.HorseState();
+    myHorse.HorseState("psycho");
+
+    Stallion myStallion = new Stallion();
+    myStallion.HorseState();
 }

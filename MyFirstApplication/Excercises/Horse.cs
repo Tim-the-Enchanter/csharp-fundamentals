@@ -3,6 +3,10 @@
 internal class Horse
 {
     /*
+    1.	In your Horse class, add the virtual keyword to your method created in Lesson 10.Create a second 
+    version of the same method and add a parameter. Include a Console WriteLine method in the new method 
+    that uses the parameter. This parameter needs to be based on one of your properties.
+     
      Create a class based on your Horse object. Include your attributes as auto properties.
     Create 3 constructors. The first constructor should have parameters equal to your properties.
     Assign each parameter to your properties. The second constructor should have 2 parameters.
@@ -34,8 +38,19 @@ internal class Horse
         : this("9 hands", "grazing") { }
 
     // method
-    public void HorseState()
+    // changed to virtual for  exercise 12
+    public virtual void HorseState()
     {
         Console.WriteLine($"My horse is {HorseSize} hands tall and is {HorseMotion}");
     }
-}
+    /*
+    1.	In your Horse class, add the virtual keyword to your method created in Lesson 10.Create a second 
+    version of the same method and add a parameter. Include a Console WriteLine method in the new method 
+    that uses the parameter. This parameter needs to be based on one of your properties.
+    */
+    // method with parameters for Exercise 12
+    public virtual void HorseState(string HorseMane)
+    {
+        Console.WriteLine($"My {HorseMane} horse is {HorseSize} hands tall and is {HorseMotion}");
+    }
+} // End Class

@@ -16,7 +16,7 @@ valuesin that will pass to the 2ndconstructor. Also include in the class, your m
  */
 internal class Stallion : Horse
 {
-    //auto property
+    // auto property
     public string Rigging { get; init; }
 
     // 1st constructor
@@ -30,14 +30,29 @@ internal class Stallion : Horse
     public Stallion(int horseSize, string horseMane, string horseMotion)
         : this(horseSize, horseMane, horseMotion, "bareback") { }
 
+    public Stallion()
+    {
+    }
+
     // Default constructor
+    /*
     public Stallion()
         : this(9, "flowing", "bareback") { }
 
-    // Method
     public void StallionChild()
     {
         Console.WriteLine($"My Stallion only enjoys {Rigging} and his mane {HorseMane} in the wind.");
+    }
+    */
+    /*
+   2.	In your child class of Horse, using the override keyword create a method that has the same name 
+   as the virtual method from Horse. Add a Console WriteLine that provides a different message from the Horse.   
+   */
+
+    // Method with override keyword
+    public override void HorseState()
+    {
+        Console.WriteLine("The stallion is grazing.");
 
     }
 } // End Class
