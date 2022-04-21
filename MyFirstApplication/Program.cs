@@ -47,8 +47,8 @@ inside that member.
 // Lesson12Example();
 // Lesson13Example();
 // Exercise13OP();
-Lesson14Example();
-
+// Lesson14Example();
+Exercise14();
 
 void Lesson14Example()
 {
@@ -497,4 +497,11 @@ void HorseObj()
 void Exercise13OP()
 {
     LandBird myLandBird = new LandBird(10);
+}
+
+void Exercise14()
+{
+    Exercise14 myExercise14 = new Exercise14();
+    // myExercise14.IceCreamFlavors();
+    myExercise14.KcCheifsScores();
 }
