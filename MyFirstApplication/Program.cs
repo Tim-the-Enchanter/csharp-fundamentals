@@ -45,7 +45,8 @@ inside that member.
 // YachtChild();
 // CondoExample();
 // Lesson12Example();
-Lesson13Example();
+// Lesson13Example();
+Exercise13OP();
 
 void Lesson13Example()
 {
@@ -60,8 +61,6 @@ void Lesson13Example()
     int total3 = myLesson13.ConvertMilesToYards();
     Console.WriteLine($"Converting Miles to Yards {total3}");
 }
-
-
 
 void CondoExample()
 {
@@ -481,4 +480,9 @@ void HorseObj()
 
     Stallion myStallion = new Stallion();
     myStallion.HorseState();
+}
+
+void Exercise13OP()
+{
+    LandBird myLandBird = new LandBird(10);
 }
