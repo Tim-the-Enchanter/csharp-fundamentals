@@ -46,7 +46,19 @@ inside that member.
 // CondoExample();
 // Lesson12Example();
 // Lesson13Example();
-Exercise13OP();
+// Exercise13OP();
+Lesson14Example();
+
+
+void Lesson14Example()
+{
+    Lesson14 myLesson14 = new Lesson14();
+    // myLesson14.SingleIntArray();
+    // myLesson14.SingleHouseArray();
+    // myLesson14.MultiIntArray();
+    // myLesson14.MultiStringArray();
+    myLesson14.JaggedArraySample();
+}
 
 void Lesson13Example()
 {
