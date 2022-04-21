@@ -1,6 +1,5 @@
 ﻿namespace MyFirstApplication;
-
-/*
+            // Condo - child of house
 internal class Condo : House
 {
     private string _balcony;
@@ -10,15 +9,15 @@ internal class Condo : House
         get { return _balcony; }
         set { _balcony = value; }
     }
-
+    // default constructor
     public Condo()
         : this("second floor")
     { }
-
+    // Constructors
     public Condo(string balcony)
         : this("concrete", "steel", "Blue", 35, balcony)
     { }
-
+    // Constructors
     public Condo(string foundation, string roofType, string doorColor,
         int windowSize, string balcony)
         : base(foundation, roofType, doorColor, windowSize)
@@ -28,7 +27,7 @@ internal class Condo : House
 
 
      public override void DoorOpenClose()
-    {
+    {                           // DoorColor - parent property
         Console.WriteLine($"The {DoorColor} door is creaking.");
     }
 
@@ -38,4 +37,3 @@ internal class Condo : House
     }
     
 } // end class
-*/

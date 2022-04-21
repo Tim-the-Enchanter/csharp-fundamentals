@@ -37,13 +37,33 @@ inside that member.
 // Exercise8a();
 // Lesson9Example();
 // Lesson10Example();
-// CondoExample();
 // HouseUpdated();
 // HorseObj();
 // EngineState();
 // Lesson11Example();
 // StallionChild();
-YachtChild();
+// YachtChild();
+CondoExample();
+
+void CondoExample()
+{
+    Condo myCondo = new Condo();
+    myCondo.Maintenance();
+    myCondo.DoorOpenClose();
+    Console.WriteLine(myCondo.RoofType);
+}
+
+Lesson12Example();
+
+void Lesson12Example()
+{
+    Fruit myFruit = new Fruit();
+    myFruit.EatFruit();
+    myFruit.EatFruit(3);
+
+    Apple myApple = new Apple();
+    myApple.EatFruit();
+}
 
 void YachtChild()
 {
@@ -320,15 +340,6 @@ void Lesson1Example()
     myLesson.LongFromInt();
 }
 
-/*
-void CondoExample()
-{
-    Condo myCondo = new Condo();
-    myCondo.Maintenance();
-    myCondo.DoorOpenClose();
-    // Console.WriteLine(myCondo.RoofType);
-}
-*/
 void HouseExample()
 {
     House myHouse = new House();
