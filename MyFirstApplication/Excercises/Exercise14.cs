@@ -30,18 +30,15 @@ internal class Exercise14
 
 
     // Multi-dimensional string array using for loop.
-    public void KcCheifsScores()
+    public void RegSeasonScores()
     {
-        int[,] myKcscores = { { 34, 23, 34, 26, 32, 26, 43, 35, 33, 35, 27, 29, 17, 21 },
+        int[,] regScores = new int[,]{ { 34, 23, 34, 26, 32, 26, 43, 35, 33, 35, 27, 29, 17, 21 },
             { 20, 20, 20, 10, 40, 17, 16, 9, 31, 31, 24, 29, 14, 38 } };
-
-        for (int h = 0; h < myKcscores.GetLength(0); h++)
-        {
-            for (int a = 0; a < myKcscores.GetLength(1); a++)
+        foreach(int score in regScores)      
             {
-                Console.WriteLine(myKcscores[h, a]);
+                Console.WriteLine(score);
             }
-        }
-
     }
+
+    
 } // end class

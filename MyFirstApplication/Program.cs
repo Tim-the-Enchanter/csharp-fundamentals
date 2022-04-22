@@ -48,8 +48,9 @@ inside that member.
 // Lesson13Example();
 // Exercise13OP();
 // Lesson14Example();
-// Exercise14();
+Exercise14();
 Lesson15Example();
+// Exercise15();
 
 void Lesson15Example()
 {
@@ -515,5 +516,12 @@ void Exercise14()
 {
     Exercise14 myExercise14 = new Exercise14();
     // myExercise14.IceCreamFlavors();
-    myExercise14.KcCheifsScores();
+    myExercise14.RegSeasonScores();
+}
+
+void Exercise15()
+{
+    Exercise15 myExercise15 = new Exercise15();
+    string movies = myExercise15.FavoriteMovies(MyMovies.DeadPool);
+    Console.WriteLine(movies);
 }
