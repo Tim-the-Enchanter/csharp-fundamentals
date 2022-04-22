@@ -38,7 +38,5 @@ internal class Exercise14
             {
                 Console.WriteLine(score);
             }
-    }
-
-    
+    }   
 } // end class
