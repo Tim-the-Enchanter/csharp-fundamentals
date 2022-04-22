@@ -52,8 +52,17 @@ inside that member.
 // Lesson15Example();
 // Exercise15();
 // Lesson16Example();
-Exercise16();
+// Exercise16();
+Lesson17Example();
 
+
+void Lesson17Example()
+{
+    Lesson17 myLesson17 = new Lesson17();
+    House testhouse = null;
+    // myLesson17.MyThrowExample(testhouse);
+    myLesson17.MyExceptionExample(testhouse);
+}
 
 
 void Lesson16Example()
