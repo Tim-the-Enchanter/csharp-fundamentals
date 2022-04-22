@@ -53,8 +53,8 @@ inside that member.
 // Exercise15();
 // Lesson16Example();
 // Exercise16();
-Lesson17Example();
-
+// Lesson17Example();
+Exercise17();
 
 void Lesson17Example()
 {
@@ -551,4 +551,12 @@ void Exercise16()
     Exercise16 myExercise16 = new Exercise16();
     myExercise16.MyHorseList();
     myExercise16.MyMovieDictionary();
+}
+
+void Exercise17()
+{   
+    Exercise17 myExercise17 = new Exercise17();
+    myExercise17.DivByZeroTest(5, 0);
+    Horse testHorse = null;
+    myExercise17.NullTest(testHorse);
 }
